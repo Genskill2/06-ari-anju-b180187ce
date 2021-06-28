@@ -27,24 +27,21 @@ string ari(string s)
             
       
     }
-    printf("\n%d",ch); 
-    printf("\n%d",wd); 
-    printf("\n%d",sn); 
-    float in;
+     float in;
     in = (float) (4.71 * ch / wd ) + (0.5 * wd / sn) - 21.43;
-    printf("\n%f",in);
+   
     int a = in;
-    printf("\n%d",a);   
+   
     int b = a+1;
-    printf("\n%d",b);   
+      
     int c = a-1;
-    printf("\n%d",c);   
+   
     int x=0;
     if(c<in && in<a)
        x=a;
     else if (a<in && in<b)
        x=b;  
-    printf("\n%d",x);    
+    
     string d;
     switch(x)
     {
@@ -79,6 +76,6 @@ string ari(string s)
         default :  d= "Professor  ";                                             
 
     }
-    retuen d;
+    return d;
 
 }
