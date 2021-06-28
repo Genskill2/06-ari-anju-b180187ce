@@ -45,35 +45,35 @@ string ari(string s)
     string d;
     switch(x)
     {
-        case 1 : d= "Kindergarten ";
+        case 1 : d= "Kindergarten";
                 break;
-        case 2 :  d= "First/Second Grade ";
+        case 2 :  d= "First/Second Grade";
                 break;
-        case 3 :  d= "Third Grade ";
+        case 3 :  d= "Third Grade";
                 break;
-        case 4 :  d= "Fourth Grade ";
+        case 4 :  d= "Fourth Grade";
                 break;
-        case 5 :  d= "Fifth Grade  ";
+        case 5 :  d= "Fifth Grade";
                 break;
-        case 6 : d= "Sixth Grade ";
+        case 6 : d= "Sixth Grade";
                 break;
-        case 7 : d= "Seventh Grade  ";
+        case 7 : d= "Seventh Grade";
                 break;
-        case 8 :  d= "Eighth Grade   ";
+        case 8 :  d= "Eighth Grade";
                 break;
-        case 9 :  d= "Ninth Grade  ";
+        case 9 :  d= "Ninth Grade";
                 break;
-        case 10 : d= "Tenth Grade  ";
+        case 10 : d= "Tenth Grade";
                 break;
-        case 11 :  d= " Eleventh Grade  ";
+        case 11 :  d= " Eleventh Grade";
                 break;
-        case 12 :  d= "Twelfth grade   ";
+        case 12 :  d= "Twelfth grade";
                 break;
-        case 13 :  d= "College student ";
+        case 13 :  d= "College student";
                 break;
-        case 14 :  d= "Professor  ";
+        case 14 :  d= "Professor";
                 break;
-        default :  d= "Professor  ";                                             
+        default :  d= "Professor";                                             
 
     }
     return d;
