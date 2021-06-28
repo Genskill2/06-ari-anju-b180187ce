@@ -1,3 +1,8 @@
+
+#include <stdio.h>
+#include <assert.h>
+#include <string.h>
+#include <cs50.h>
 #include <ctype.h>
 string ari(string s)
 {
