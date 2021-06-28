@@ -1,3 +1,4 @@
+#include <ctype.h>
 string ari(string s)
 {
     int ch = 0;
